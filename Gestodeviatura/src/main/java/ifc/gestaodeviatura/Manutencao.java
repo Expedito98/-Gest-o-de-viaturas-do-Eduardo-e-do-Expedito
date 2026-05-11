@@ -4,6 +4,9 @@
  */
 package ifc.gestaodeviatura;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author aluno
@@ -18,7 +21,7 @@ public class Manutencao {
     private String horaInicio;
     private String horaFim;
     private double custo;
-    private list<Equipe> equipe;
+    private List<Equipe> equipe = new ArrayList<equipe>();
 
     public int getIdentManutencao() {
         return identManutencao;

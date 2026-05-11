@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package ifc.gestaodeviatura;
+package javaapplication2;
 
 /**
  *
@@ -20,6 +20,8 @@ public class Viatura {
     private int quilometragemAtual;
     private String localizacao;
     private boolean identPlacaJaCadast;
+
+    
 
     public String getIdentificacao() {
         return identificacao;
@@ -108,17 +110,14 @@ public class Viatura {
             return false;
         }
     }
-
-    public void cadastrarViatura() {
+    
+              
+    public void cadatrarViatura(){
     }
-
-    public void consultaViatura() {
+    public void conultarViatura(){
     }
-
-    public void atualizarViatura() {
+    public void atuaçizarViatura(){
     }
-
-    public void escluirViatura() {
-    }
-
+   public void excluirViatura(){
+   }  
 }

@@ -47,8 +47,7 @@ public class UsuarioDoSistema {
     public void setPerfil(String _perfil){
             this.perfil = _perfil;
         
+
     }
-    
-    
-    
+  
 }
