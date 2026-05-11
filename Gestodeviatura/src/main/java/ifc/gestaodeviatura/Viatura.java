@@ -111,10 +111,14 @@ public class Viatura {
         }
     }
     
-    
-    
-    public static void main(String[] args) {
-
+     
+              
+    public void cadatrarViatura(){
     }
-
+    public void conultarViatura(){
+    }
+    public void atuaçizarViatura(){
+    }
+   public void excluirViatura(){
+   }  
 }
