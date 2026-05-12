@@ -10,7 +10,7 @@ import java.util.List;
  *
  * @author aluno
  */
-public class Equipe {
+public class Equipe extends Manutencao{
     
       private String identEquipe;
     private List<Bombeiro> bombeiros;

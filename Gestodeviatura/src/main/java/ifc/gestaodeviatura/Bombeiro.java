@@ -8,7 +8,7 @@ package ifc.gestaodeviatura;
  *
  * @author aluno
  */
-public class Bombeiro {
+public class Bombeiro extends Equipe{
     
     private String identBombeiro;
     private String nome;

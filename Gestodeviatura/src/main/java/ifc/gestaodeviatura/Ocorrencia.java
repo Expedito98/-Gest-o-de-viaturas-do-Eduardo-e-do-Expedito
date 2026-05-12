@@ -10,7 +10,7 @@ import java.util.Date;
  *
  * @author aluno
  */
-public class Ocorrencia {
+public class Ocorrencia extends Viatura{
 
     private String identOcorrencia;
     private String tipo;

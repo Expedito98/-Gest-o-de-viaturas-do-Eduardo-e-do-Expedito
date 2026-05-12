@@ -8,7 +8,7 @@ package ifc.gestaodeviatura;
  *
  * @author aluno
  */
-public class Viatura {
+public class Viatura extends UsuarioDoSistema{
 
     private String identificacao;
     private String tipo;

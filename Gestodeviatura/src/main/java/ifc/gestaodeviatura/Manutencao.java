@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @author aluno
  */
-public class Manutencao {
+public class Manutencao extends Viatura{
     
     private int identManutencao;
     private String tipo;
@@ -21,7 +21,7 @@ public class Manutencao {
     private String horaInicio;
     private String horaFim;
     private double custo;
-    private List<Equipe> equipe = new ArrayList<equipe>();
+    private List<Equipe> equipe = new ArrayList<Equipe>();
 
     public int getIdentManutencao() {
         return identManutencao;
